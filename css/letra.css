@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Seaweed+Script&display=swap');
+
+h2{
+    font: small-caps 40px serif;
+    color:rgb(121, 28, 179) ;
+}
+
+#resultado{
+color:rgb(255, 0, 0);
+}
+#resultado1{
+  font-family: "Sacramento", sans-serif;
+  color:rgb(105, 0, 255);
+}
+#resultado2{
+    font-family: "Seaweed Script", sans-serif;
+    color:rgb(242, 255, 4);
+}
+
+input{
+text-decoration:none;
+padding :10px;
+font-family: "Open Sans", sans-serif;
+font-variant: small-caps;
+margin-top: 15px;
+margin-bottom: 15px;
+font-weight:300;
+font-size:25px;
+color:rgb(255, 255, 0);
+border-radius: 15px;
+background-color:rgb(5, 0, 255);
+}
+
+#rf{
+text-decoration:none;
+padding :10px;
+font-family: "Seaweed Script", sans-serif;
+font-variant: small-caps;
+margin-top: 15px;
+margin-bottom: 15px;
+font-weight:300;
+font-size:15px;
+color:rgb(255, 255, 0);
+border-radius: 15px;
+background-color:rgb(17, 17, 17);
+}

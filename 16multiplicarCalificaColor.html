@@ -1,0 +1,63 @@
+﻿<!DOCTYPE >
+<html>
+<!--Tablas de Multiplicar"-->
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Tablas de Multiplicar</title>
+    <script language="javascript" src="js/varios.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/tabla.css">
+		<link rel="stylesheet" href="css/misstilos.css">
+
+	</head>
+	<body>
+		<header>
+              <UL>
+                  <li><a href="index.html">Factorial</a></li>
+                  <li><a href="10Cadenaspalindoromo.html">Palindromo</a></li>
+                  <li><a href="10CadenasPatronesvalida2RFC.html">RFC</a></li>
+                  <li><a href="16multiplicarCalificaColor.html">Tablas</a></li>
+                  <li><a href="17fecha-signo.html">Fecha/Signo</a></li>
+              </UL>
+    </header>
+
+		<form>
+			Selecciona que n&uacute;mero de tabla
+			<select name="opTabla" id="opTabla">
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+            </select>
+
+            <p>
+                <input type="button" class="boton" value="Ejecutar" onclick="muestra(opTabla.value, tabla, document.getElementById(&#39;contenido&#39;));"><br>
+            </p>
+
+            <div id="contenido">
+                <table id="tabla" border="2">
+                    <thead>
+                        <tr>
+                        <th>Operación</th>
+                        <th>Resultado</th>
+                        <th>Calificacion</th>
+                        </tr>
+                    </thead>
+                </table>
+                    <br>
+                <input type="button" class="boton" value="Calificar Examen" onclick="califica(opTabla.value, tabla);">
+                    <br>
+            </div>
+            <div class="conten">
+                <label for="Calificar Examen">
+                    <h2 id="calif">Calificación: </h2>
+                </label>
+            </div>
+        </form>
+
+    </body>
+</html>

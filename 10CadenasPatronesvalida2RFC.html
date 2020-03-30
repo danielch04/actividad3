@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control submit por evento formulario</title>
+    <script type="text/javascript" src="js/rfc.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/letra.css">
+    <link rel="stylesheet" href="css/misstilos.css">
+
+</head>
+<body>
+  <header>
+            <UL>
+                <li><a href="index.html">Factorial</a></li>
+                <li><a href="10Cadenaspalindoromo.html">Palindromo</a></li>
+                <li><a href="10CadenasPatronesvalida2RFC.html">RFC</a></li>
+                <li><a href="16multiplicarCalificaColor.html">Tablas</a></li>
+                <li><a href="17fecha-signo.html">Fecha/Signo</a></li>
+            </UL>
+  </header>
+
+	<form>
+		RFC <input id="rf" type="text" name="txtRFC" maxlength="13" size="15"/>
+		<br/>
+		<input type="submit" onClick="return valida(txtRFC);" value="Ok"/>
+	</form>
+      <h2 id="resultado1"></h2>
+
+</body>
+</html>
